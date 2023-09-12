@@ -13,6 +13,7 @@ connectDB();
 // Parse JSON request body
 app.use(express.json());
 app.use(cors());
+
 app.post('./login ', (req, res) =>{
  
 } )
